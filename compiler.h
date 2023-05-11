@@ -9,7 +9,7 @@ struct pos
   int line;
   int col;
   const char* filename;
-}
+};
 
 enum
 {
@@ -75,7 +75,7 @@ struct lex_process
   // This will be private data that the lexer does not understand
   // but the person using the lexer does understand.
   void* private;
-}
+};
 
 enum
 {
